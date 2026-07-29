@@ -1,96 +1,100 @@
-# 🐍 Python Learning & Practice
+# 🐍 Python From Scratch
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Learning](https://img.shields.io/badge/Learning-Structured-success?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Actively%20Maintained-blue?style=for-the-badge)
+![Repository](https://img.shields.io/badge/Repository-Learning-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-### A structured Python learning repository covering fundamentals, Object-Oriented Programming, problem-solving, and advanced concepts through hands-on coding practice.
+### A structured repository for learning Python from the fundamentals to data analysis through practical coding, problem-solving, and real-world examples.
 
 </div>
 
 ---
 
-# 📖 Overview
+# 📖 About
 
-**Python Learning & Practice** is a comprehensive repository designed to build a strong foundation in Python programming through structured, topic-wise practice. It serves as both a learning resource and a personal coding journal, documenting my journey from Python fundamentals to advanced programming concepts.
+**Python From Scratch** is a structured learning repository that documents my journey of mastering Python through hands-on practice and real-world implementation.
 
-The repository focuses on writing clean, readable, and well-organized code while reinforcing core programming principles through practical examples. It is intended for beginners, students, and aspiring software engineers looking to strengthen their Python skills through consistent practice.
+The repository is organized into topic-based modules, beginning with Python fundamentals and progressing through Object-Oriented Programming, Advanced Python, NumPy, and Pandas. Each module contains well-documented notebooks, practical examples, coding exercises, and explanations designed to strengthen programming fundamentals and analytical thinking.
 
----
-
-# 🎯 Objectives
-
-- Build a strong foundation in Python programming
-- Master Object-Oriented Programming (OOP)
-- Develop logical thinking and problem-solving skills
-- Practice clean and maintainable code
-- Prepare for coding interviews and technical assessments
-- Create a structured reference for Python concepts
+Whether you're starting your Python journey or revising important concepts, this repository serves as both a learning resource and a practical reference.
 
 ---
 
-# ✨ Key Highlights
+# ✨ Features
 
-- Structured topic-wise learning approach
-- Beginner-friendly code examples
-- Hands-on programming exercises
-- Object-Oriented Programming implementation
-- Clean and readable coding practices
-- Continuously updated with new topics and exercises
+- 📚 Structured learning roadmap
+- 💻 Hands-on coding examples
+- 🧩 Problem-solving exercises
+- 📝 Beginner-friendly explanations
+- 📊 NumPy & Pandas practice
+- 📂 Well-organized repository structure
+- ✅ Clean and readable code
+- 🚀 Regularly updated with new topics
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-Full-Python-practice/
+Python-From-Scratch/
 
 ├── 01_Basics/
-│   ├── Introduction
-│   ├── Data Types
-│   ├── If-Else Statements
-│   ├── Lists
-│   ├── Loops
-│   ├── Functions
-│   ├── Dictionaries
-│   └── Function Outputs
+│   └── Python Fundamentals
 │
 ├── 02_Intermediate/
-│   ├── Classes & Objects
-│   ├── Constructors
-│   ├── Methods
-│   ├── Abstraction & Encapsulation
-│   ├── Private Attributes & del Keyword
-│   ├── Inheritance
-│   ├── Class Methods & Property Decorators
-│   └── Polymorphism
+│   └── Object-Oriented Programming
 │
+├── 03_Advanced/
+│   └── Advanced Python Concepts
+│
+├── 04_NumPy/
+│   └── Numerical Computing
+│
+├── 05_Pandas/
+│   └── Data Manipulation & Analysis
+│
+├── .gitignore
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-# 📚 Topics Covered
+# 📚 Learning Modules
+
+| Module | Description | Status |
+|---------|-------------|:------:|
+| **01 Basics** | Variables, Data Types, Operators, Loops, Functions, Strings, Collections | ✅ |
+| **02 Intermediate** | Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction | ✅ |
+| **03 Advanced** | Exception Handling, File Handling, Modules, Iterators, Generators, Decorators | 🔄 |
+| **04 NumPy** | Arrays, Indexing, Slicing, Reshaping, Broadcasting, Mathematical Operations | ✅ |
+| **05 Pandas** | Data Loading, Cleaning, Filtering, Transformation, Grouping, Merging, Analysis | ✅ |
+
+---
+
+# 📌 Topics Covered
 
 ## 🟢 Python Fundamentals
 
-- Introduction to Python
-- Variables and Data Types
+- Variables
+- Data Types
 - Operators
 - User Input
 - Conditional Statements
 - Loops
 - Functions
+- Strings
 - Lists
+- Tuples
 - Dictionaries
-- Basic Problem Solving
+- Sets
 
 ---
 
-## 🟡 Intermediate Python
+## 🟡 Object-Oriented Programming
 
 - Classes & Objects
 - Constructors
@@ -98,63 +102,91 @@ Full-Python-practice/
 - Methods
 - Encapsulation
 - Abstraction
-- Private Attributes & Methods
 - Inheritance
 - Method Overriding
 - Polymorphism
-- Class Methods
 - Static Methods
+- Class Methods
 - Property Decorators
-- `del` Keyword
 
 ---
 
-# 📚 Learning Roadmap
-
-### ✅ Completed
-
-- Python Fundamentals
-- Data Types
-- Conditional Statements
-- Loops
-- Functions
-- Lists
-- Dictionaries
-- Classes & Objects
-- Constructors
-- Methods
-- Encapsulation
-- Abstraction
-- Inheritance
-- Polymorphism
-- Class Methods
-- Property Decorators
-
-### 🔄 Currently Learning
+## 🔵 Advanced Python
 
 - Exception Handling
 - File Handling
-
-### ⏳ Planned
-
 - Modules & Packages
-- Iterators & Generators
+- Iterators
+- Generators
 - Decorators
-- Regular Expressions
 - Lambda Functions
-- NumPy
-- Pandas
-- Matplotlib
-- APIs
-- Database Connectivity
-- Mini Projects
-- Coding Interview Questions
+- Regular Expressions
+
+---
+
+## 🟣 NumPy
+
+- Introduction
+- Creating Arrays
+- Array Properties
+- Indexing & Slicing
+- Reshaping
+- Mathematical Operations
+- Aggregation Functions
+- Broadcasting
+- Random Module
+
+---
+
+## 🟠 Pandas
+
+- Reading Data
+- Saving Data
+- Data Exploration
+- Data Information
+- Descriptive Statistics
+- Selecting & Filtering
+- Data Modification
+- Handling Missing Data
+- Interpolation
+- Sorting
+- Aggregation
+- GroupBy
+- Merging & Joining
+- Concatenation
+
+---
+
+# 📈 Progress
+
+| Module | Status |
+|---------|:------:|
+| Python Fundamentals | ✅ Complete |
+| Object-Oriented Programming | ✅ Complete |
+| Advanced Python | 🔄 In Progress |
+| NumPy | ✅ Complete |
+| Pandas | ✅ Complete |
+
+---
+
+# 🎯 Repository Goals
+
+- Build a strong foundation in Python programming.
+- Master Object-Oriented Programming.
+- Develop problem-solving and logical thinking skills.
+- Learn Python libraries used in Data Analytics and Data Science.
+- Write clean, maintainable, and reusable code.
+- Prepare for coding interviews and technical assessments.
+- Build real-world Python projects.
 
 ---
 
 # 💻 Technologies Used
 
 - Python 3
+- NumPy
+- Pandas
+- Jupyter Notebook
 - Visual Studio Code
 - Git
 - GitHub
@@ -163,55 +195,57 @@ Full-Python-practice/
 
 # 🎯 Who Is This Repository For?
 
-This repository is suitable for:
+This repository is intended for:
 
-- Beginners learning Python from scratch
-- Students preparing for technical interviews
-- Developers revising Python concepts
-- Anyone looking for organized Python practice examples
+- Beginners learning Python
+- Computer Science students
+- Data Analyst aspirants
+- Data Science learners
+- Python developers revising core concepts
+- Anyone preparing for coding interviews
+
+---
+
+# 📊 Repository Statistics
+
+| Metric | Value |
+|---------|------:|
+| Learning Modules | 5 |
+| Libraries Covered | 2 |
+| Repository Status | Active |
+| Language | Python |
 
 ---
 
 # 🧹 Coding Standards
 
-Each example in this repository follows clean coding principles:
+The code in this repository follows clean coding practices:
 
 - Meaningful variable and function names
-- Well-structured code
+- Consistent coding style
 - Beginner-friendly implementations
-- Consistent formatting
-- Readable and maintainable solutions
-
----
-
-# 📈 Learning Progress
-
-| Module | Status |
-|---------|:------:|
-| Python Basics | ✅ |
-| Data Types | ✅ |
-| Control Flow | ✅ |
-| Functions | ✅ |
-| Data Structures | ✅ |
-| Object-Oriented Programming | ✅ |
-| Exception Handling | 🔄 |
-| File Handling | 🔄 |
-| Advanced Python | ⏳ |
-| NumPy | ⏳ |
-| Pandas | ⏳ |
-| Projects | ⏳ |
+- Modular programming approach
+- Well-commented examples
+- Readable and maintainable code
 
 ---
 
 # 🚀 Why This Repository?
 
-This repository reflects my commitment to continuous learning and consistent coding practice. Every program is written to strengthen core programming concepts, improve problem-solving skills, and build a solid foundation for software development, data analytics, and technical interviews.
+This repository reflects my commitment to continuous learning and consistent coding practice. Every notebook and script is written to strengthen programming fundamentals, improve analytical thinking, and build practical skills that can be applied to software development, data analytics, and technical interviews.
 
 ---
 
-# 🤝 Contributions
+# 🤝 Contributing
 
-Suggestions, improvements, and corrections are welcome. Feel free to fork the repository, open an issue, or submit a pull request.
+Contributions, suggestions, and improvements are welcome.
+
+If you'd like to contribute:
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
 
 ---
 
@@ -223,19 +257,20 @@ This project is licensed under the **MIT License**.
 
 # 👨‍💻 Author
 
-## **Tanish Mhatre**
+## Tanish Mhatre
 
-**Data Analyst | Machine Learning Enthusiast | Python Developer**
+**Aspiring Data Analyst | Python Developer | Data Analytics & Machine Learning Enthusiast**
 
-### GitHub
-
-https://github.com/TanishMhatre124
+- **GitHub:** https://github.com/TanishMhatre124
+- **LinkedIn:** https://www.linkedin.com/in/tanish-mhatre-80a955288
 
 ---
 
 <div align="center">
 
-### ⭐ If you find this repository helpful, consider giving it a Star!
+### ⭐ If you found this repository helpful, consider giving it a Star!
+
+Your support helps improve the repository and motivates the development of more high-quality learning resources.
 
 **Happy Coding! 🚀**
 
